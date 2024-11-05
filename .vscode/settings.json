@@ -56,26 +56,27 @@
     "dotnet.navigation.navigateToDecompiledSources": true,
     "editor.trimAutoWhitespace": true,
     "cSpell.userWords": [
+        "Battlepass",
         "Behaviour",
-        "dotnettools",
-        "eamodio",
-        "errorlens",
-        "eyerunnman",
-        "Gamepad",
+        "Cysharp",
+        "Fomo",
+        "Gacha",
+        "Gatcha",
+        "Headshot",
         "Interactable",
         "leaderboard",
         "leaderboards",
         "Lerp",
         "Loadout",
         "Mathf",
-        "NOTRIM",
+        "Metas",
+        "Owidget",
+        "Poolable",
         "pooler",
-        "ROOTNAMESPACEBEGIN",
+        "Raycasts",
         "Sandook",
-        "SCRIPTNAME",
-        "struct",
-        "tonybaloney",
-        "usernamehw"
+        "stackable",
+        "UNRANKED"
     ],
     // globally (user/workspace setting)
     "separators.enabledSymbols": [
@@ -88,25 +89,6 @@
         "Namespaces",
         "Structs"
     ],
-    "[csharp]": {
-        "editor.defaultFormatter": "ms-dotnettools.csharp",
-        "separators.enabledSymbols": [
-            "Constructors",
-            "Enums",
-            "Classes",
-            "Functions",
-            "Methods",
-            "Structs"
-        ],
-    },
-    "separators.classes.borderStyle": "dotted",
-    "separators.constructors.borderStyle": "dotted",
-    "separators.enums.borderStyle": "dotted",
-    "separators.functions.borderStyle": "dotted",
-    "separators.interfaces.borderStyle": "dotted",
-    "separators.methods.borderStyle": "dotted",
-    "separators.namespaces.borderStyle": "dotted",
-    "separators.structs.borderStyle": "dotted",
     "separators.classes.borderWidth": 2,
     "separators.constructors.borderWidth": 2,
     "separators.enums.borderWidth": 2,
@@ -115,13 +97,40 @@
     "separators.methods.borderWidth": 2,
     "separators.namespaces.borderWidth": 2,
     "separators.structs.borderWidth": 2,
+    "separators.classes.borderStyle": "dotted",
+    "separators.constructors.borderStyle": "dotted",
+    "separators.enums.borderStyle": "dotted",
+    "separators.functions.borderStyle": "dotted",
+    "separators.interfaces.borderStyle": "dotted",
+    "separators.methods.borderStyle": "dotted",
+    "separators.namespaces.borderStyle": "dotted",
+    "separators.structs.borderStyle": "dotted",
     "separators.location": "aboveTheComment",
-    "cSpell.words": [
-        "csdevkit",
-        "intellicode",
-        "visualstudioexptteam",
-        "visualstudiotoolsforunity",
-        "vscodeintellicode",
-        "vstuc"
-    ]
+    // per-language setting
+    "[typescript]": {},
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp",
+        "separators.enabledSymbols": [
+            "Classes",
+            "Constructors",
+            "Functions",
+            "Methods",
+            "Structs"
+        ],
+    },
+    "vscode-pets.petSize": "large",
+    "vscode-pets.position": "explorer",
+    "vscode_custom_css.imports": [
+        "file:///c:/Users/karan/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
+    ],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.stickyScroll.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "csharp": true
+    },
+    "workbench.iconTheme": "icons"
 }
